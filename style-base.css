@@ -1,0 +1,12 @@
+* {
+  margin:0;
+  padding: 0;
+}
+/* les marges et paddings ne sont pas ajoutés aux tailles definies pour les */ 
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
